@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <h1>Galeria multimedia</h1>
+    <main class="galeria-flex">
+        <article class="tarjeta">
+            <h2>Imagen</h2>
+            <img src="multimedia/imagenes/cena-tematica.jpg" alt="Imagen de cena temática">
+            <p>Cena Temática Institucional</p>
+        </article>
+        <article class="tarjeta">
+            <h2>Audio</h2>
+            <audio class="reproductor-audio"controls>
+                <source src="multimedia/audios/gunsandroses-yesterday.mp3"
+                type="audio/mpeg">
+                Tu navegador no soporta el reproductor de audio.
+            </audio>
+            <p>Escucha nuestra pista</p>
+        </article>
+        <article class="tarjeta">
+         <h2>video</h2>
+            <video controls>
+                <source src="multimedia/videos/videococina.mp4"
+                type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+         <p>Receta Paso a Paso</p>
+        </article>
+        <article class="tarjeta">
+            <h2>documento</h2>
+            <p>Propuestas en PDF</p>
+            <a href="multimedia/documentos/palabras.pdf" target="_blank" class="btn-pdf">Ver PDF</a>
+        </article>
+    </main>
+    
+</body>
+</html>
